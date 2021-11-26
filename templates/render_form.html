@@ -1,0 +1,22 @@
+<body style="background-color:steelblue;">
+<h2>Twitter Live Stream</h2>
+<style>
+    .button {
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+.button1 {background-color: #8B4513;} /* Green */
+</style>
+<form action="/data" method = "POST">
+    <p>Enter Tag <input type = "text" name = "Tag" /> <button class="button button1">Submit</button> </p>
+Currently trending in USA:  <b style="color:blue;"> Thanksgiving, Cowboys, Luke Combs, #LVvsDAL</b>
+    <marquee behavior="scroll" direction="right">After Submit, please stay put while we collect your tweets!</marquee>
+</form>
+</body>
