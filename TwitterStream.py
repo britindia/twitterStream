@@ -27,11 +27,11 @@ import requests
 import sys
 import json
 
-consumer_key="BOWnxmDCHYliAI9Zd7YC8UhJm"
-consumer_secret="DEakCdZZtE1WkaxN8ixHhYcDNFkMAGjZDeeK7AdWZTP43KZbLg"
-access_key="2339533255-NgFpjeUf2Cs8xD14gjeMen8iPJNI2YVEklUOT1n"
-access_secret="HLs5BirdhWoeEJC5whOS3ufJw4Yf6mXInFZLRAn9HN1gc"
-output_file="/Users/brijeshtyagi/Desktop/002MIsc/GCP/twitter_" + datetime.today().strftime('%Y-%m-%d') + ".txt"
+# Create developer account and get below credentials
+consumer_key="xxxxxxxxxxxx"
+consumer_secret="xxxxxxxxxxxx"
+access_key="xxxxxxxxxxxx"
+access_secret="xxxxxxxxxxxx"
   
 # StreamListener class inherits from tweepy.StreamListener and overrides on_status/on_error methods.
 class MyStreamListener(tweepy.StreamListener):
