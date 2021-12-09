@@ -14,11 +14,10 @@ import requests
 import sys
 import json
 
-consumer_key="BOWnxmDCHYliAI9Zd7YC8UhJm"
-consumer_secret="DEakCdZZtE1WkaxN8ixHhYcDNFkMAGjZDeeK7AdWZTP43KZbLg"
-access_key="2339533255-NgFpjeUf2Cs8xD14gjeMen8iPJNI2YVEklUOT1n"
-access_secret="HLs5BirdhWoeEJC5whOS3ufJw4Yf6mXInFZLRAn9HN1gc"
-output_file="/Users/brijeshtyagi/Desktop/002MIsc/GCP/twitter_" + datetime.today().strftime('%Y-%m-%d') + ".txt"
+consumer_key="XXXXXXXXXXXXX"
+consumer_secret="XXXXXXXXXXXXX"
+access_key="XXXXXXXXXXXXX"
+access_secret="XXXXXXXXXXXXX"
 
 def top_hashtags():
 	tags = api.trends_place(23424977) # 23424977 Corresponds to the Yahoo ID for USA. Change this to the location that you require.
